@@ -500,9 +500,11 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 60px 40px;
   overflow: clip;
 }
+
+
 
 /*--------------------------------------------------------------
 # Global Section Titles
@@ -510,6 +512,10 @@ section,
 .section-title {
   padding-bottom: 60px;
   position: relative;
+ 
+}
+.myname{
+ padding-left: 45px;
 }
 
 .section-title h2 {
@@ -1294,4 +1300,12 @@ a.viewallbtn {
   padding: 20px 0px 0px;
   display: block;
   text-align: center;
+}
+
+#resume{
+  display: none;
+}
+
+#contact .col-lg-7{
+  display: none;
 }
